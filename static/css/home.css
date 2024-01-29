@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+
+
+body{
+
+    background-color: white;
+    background-image: url(/static/css/imagens/oficinaafrimagem.png);
+    background-size: cover;
+}   
+    div.flash_alerta{
+
+        background-color: red;
+        font-size: 50px;
+        border-radius: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+div#form_fundo{
+
+    background-color: white;
+    backdrop-filter: blur(10px);
+    opacity: .9;
+
+    text-align: center;
+
+
+}
+div#form_frente{
+
+    background-color: rgb(219, 16, 26);
+    backdrop-filter: blur(10px);
+    opacity: .9;
+}
